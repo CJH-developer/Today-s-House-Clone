@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbit&family=Sunflower:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/580a20ac80.js" crossorigin="anonymous"></script>
+    <script src="/js/main.js" defer></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- 헤더 부분 -->
+    <header>
+        <!-- 헤더 전체 영역 -->
+        <div class="wrapper__header">
+
+            <div class="wrapper__header__info">
+                <!-- 헤더 상위 부분 -->
+                <div class="wrapper__header__above">
+                    <!-- 헤더 상위 왼쪽 -->
+                    <div class="header__above__left">
+
+                        <div class="above__left__title">
+                            <a href="#">오늘의집</a>
+                        </div>
+                        <ul class="above__left__content">
+                            <li><a href="#">커뮤니티</a></li>
+                            <li><a href="#">쇼핑</a></li>
+                            <li><a href="#">인테리어/생활</a></li> 
+                        </ul>
+
+                    </div>
+
+                    <!-- 헤더 상위 오른쪽 -->
+                    <div class="header__above__right">
+
+                        <div class="above__right__search">
+                            <div class="search__icon">
+                                <i class="fas fa-thin fa-magnifying-glass fa-fade"></i>
+                            </div>
+                            <input type="text" style="width: 250px; height: 35px;" placeholder="통합 검색">
+                        </div>
+                        <div class="above__right__basket">
+                            <a href="#"><i class="fas fa-thin fa-cart-shopping"></i></i></a>
+                        </div>
+                        <ul class="above__right__member">
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                        <div class="above__right__writeBtn">
+                            <a href="#"><button id="write__btn">글쓰기<i class="fa-solid fa-chevron-down"></i></button></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+<!-------------------------------------------------------------------------------------------------------------------------->
+            <!-- 헤더 하위 부분 -->
+    
+            <div class="wrapper__header__info">
+                
+                <div class="wrapper__header__below">
+                        
+                    <div class="header__below__left">
+                            
+                        <ul class="below__left__category">
+                            <li><a href="#">홈</a></li>
+                            <li><a href="#">추천</a></li>
+                            <li><a href="#">#채널</a></li>
+                            <li><a href="#">집들이</a></li>
+                            <li><a href="#">집사진</a></li>
+                            <li><a href="#">3D인테리어</a></li>
+                            <li><a href="#">살림수납</a></li>
+                            <li><a href="#">콜렉터블</a></li>
+                            <li><a href="#">홈스토랑</a></li>
+                            <li><a href="#">핫플레이스</a></li>
+                            <li><a href="#">육아</a></li>
+                            <li><a href="#">플렌테리어</a></li>
+                        </ul>
+
+                        <div class="left__category__more"><i class="fa-solid fa-chevron-down"></i></div>
+
+                    </div>
+
+                    <div class="header__below__right">
+                        <div class="below__right__ranking">
+                            <span id="rank__number">1</span>
+                            <div class="rank__title__info">
+                                <i class="fa-solid fa-caret-up fa-bounce"></i>
+                                <span id="rank__title">실시간검색어</span>
+                            </div>
+                            <div class="rank__all__menu">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+<!-------------------------------------------------------------------------------------------------------------------------->
+<!-- section 부분 -->
+    <section>
+
+        <div class="wrapper__section">
+
+            <div class="wrapper__section__content">
+                
+                <!-- section 이미지 부분 -->
+                <div class="section__content__img">
+                    <div class="section__above__left">
+                        <a href="#"><img src="/image/1.avif" alt="사진1"></a>
+                        <div class="above__left__inner">
+                            <span>나만의 감성으로 꾸민 2평 변화기</span>
+                            <div class="left__inner__img">
+                                <img src="/image/12.avif" alt="인스타이미지">
+                                <span>abcdef-ghij</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__right" onchange="showSlide()">
+                        <div class="slider"><a href="#"><img src="/image/2.avif" alt="사진2"></a></div>
+                        <div class="slider"><a href="#"><img src="/image/3.avif" alt="사진2"></a></div>
+                        <div class="slider"><a href="#"><img src="/image/4.avif" alt="사진2"></a></div>
+                        <div class="slider"><a href="#"><img src="/image/5.avif" alt="사진2"></a></div>
+                        <div class="slider"><a href="#"><img src="/image/6.avif" alt="사진2"></a></div>
+                        <div class="slider"><a href="#"><img src="/image/7.avif" alt="사진2"></a></div>
+                        <div class="slider"><a href="#"><img src="/image/8.avif" alt="사진2"></a></div>
+                        <div class="slider"><a href="#"><img src="/image/9.avif" alt="사진2"></a></div>
+                        <div class="slider"><a href="#"><img src="/image/10.avif" alt="사진2"></a></div>
+                        <div class="slider"><a href="#"><img src="/image/11.avif" alt="사진2"></a></div>
+                    </div>
+                </div>
+                
+                <!-- section 이미지 버튼 부분 -->
+                <div class="section__below">
+                    
+                        <ul class="below__frame__list">
+
+                            <li>
+                                <a href="#">
+                                    <img src="/image/a1.avif" alt="1"> 
+                                    <span>설맞이세일</span></span>   
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/image/a2.webp" alt="1"> 
+                                    <span>오늘의딜</span></span>   
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/image/a3.avif" alt="1"> 
+                                    <span>수납꿀팁</span></span>   
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/image/a4.avif" alt="1"> 
+                                    <span>행운출첵</span></span>   
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/image/a5.avif" alt="1"> 
+                                    <span>집들이</span></span>   
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/image/a6.avif" alt="1"> 
+                                    <span>추천콘텐츠</span></span>   
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/image/a7.avif" alt="1"> 
+                                    <span>장보기</span></span>   
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/image/a8.avif" alt="1"> 
+                                    <span>빠른배송</span></span>   
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/image/a9.webp" alt="1"> 
+                                    <span>리모델링</span></span>   
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="/image/a10.avif" alt="1"> 
+                                    <span>쉬운이사</span></span>   
+                                </a>
+                            </li>
+
+                        </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<!-------------------------------------------------------------------------------------------------------------------------->
+<!-- section 부분 -->
+
+    <section>
+
+        <div class="wrapper__section">
+
+            <div class="wrapper__section__content">
+
+                <div class="section__content__recommend">
+
+                    <div class="content__recommend__title">
+
+                        <div class="recommend__title__left">
+                            <div class="left__main__title">이런 사진을 찾고 있나요?</div>
+                            <div class="left__sub__title">좋아하실 만한 인테리어 콘텐츠를 추천해드려요</div>
+                        </div>
+                        <div class="recommend__title__right">
+                            <button id="right__btn">더보기</button>
+                        </div>
+
+                    </div>
+
+                    <div class="content__recommend__image">
+
+                        <ul class="recommend__image__list">
+                        
+                            <li id="listImg"><a href="#"><img src="/image/b1.avif" alt="1"></a></li>
+                            <li id="listImg"><a href="#"><img src="/image/b2.avif" alt="1"></a></li>
+                            <li id="listImg"><a href="#"><img src="/image/b3.avif" alt="1"></a></li>
+                            <li id="listImg"><a href="#"><img src="/image/b4.avif" alt="1"></a></li>
+                            <li id="listImg"><a href="#"><img src="/image/b5.avif" alt="1"></a></li>
+                            <li id="listImg"><a href="#"><img src="/image/b6.avif" alt="1"></a></li>
+                            <li id="listImg"><a href="#"><img src="/image/b7.avif" alt="1"></a></li>
+                            <li id="listImg"><a href="#"><img src="/image/b8.avif" alt="1"></a></li>
+                            <li id="listImg"><a href="#"><img src="/image/b9.avif" alt="1"></a></li>
+
+                        </ul>
+
+                        <div class="recommend__image__icon" onclick="nextSlide()">
+                            <i class="fas fa-duotone fa-circle-chevron-right" style="--fa-primary-color: #06090f; --fa-secondary-color: #ffffff;"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
